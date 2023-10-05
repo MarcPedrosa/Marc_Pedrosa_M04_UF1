@@ -1,8 +1,7 @@
 button{
     background-color: red;
     width: 150px;
-    font-size: large;
-    padding: 5px;
+    padding: 15px;
     height: 60px;
     margin: 20px;
     border: solid 3px black;
@@ -15,9 +14,11 @@ a{
 }
 body{
     background-color: black;
-    background-image:url(./img/escutAthleticClub.png);
+    background-image: url(./img/escutAthleticClub.png);
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 nav{
     background-color: red;
@@ -30,4 +31,8 @@ nav{
 }
 .logoLliga{
     margin-left: 40%;
+}
+button:hover{
+    width: 175px;
+    height: 65px;
 }

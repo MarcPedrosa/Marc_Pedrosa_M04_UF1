@@ -1,0 +1,33 @@
+button{
+    background-color: red;
+    width: 150px;
+    font-size: large;
+    padding: 5px;
+    height: 60px;
+    margin: 20px;
+    border: solid 3px black;
+    font-style: italic;
+}
+
+a{
+    color: black;
+    
+}
+body{
+    background-color: black;
+    background-image:url(./img/escutAthleticClub.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    
+}
+.navPrincipal{
+    text-align: right;
+}
+.logoLliga{
+    margin-left: 40%;
+}
